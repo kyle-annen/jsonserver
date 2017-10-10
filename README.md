@@ -1,4 +1,4 @@
-# JSON TicTacToe Server [Green Travis Badge] *
+# JSON TicTacToe Server [![Build Status](https://travis-ci.org/kyle-annen/jsonserver.svg?branch=master)](https://travis-ci.org/kyle-annen/jsonserver)
 
 A JSON TicTacToe server that provides a JSON API interface for a TicTacToe engine.
 

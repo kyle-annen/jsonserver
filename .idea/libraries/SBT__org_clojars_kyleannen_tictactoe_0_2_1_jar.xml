@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="SBT: org.clojars.kyleannen:tictactoe:0.2.1:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.clojars.kyleannen/tictactoe/jars/tictactoe-0.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

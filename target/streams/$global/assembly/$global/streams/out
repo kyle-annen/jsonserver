@@ -1,0 +1,127 @@
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: plexus-compiler-javac-2.8.2.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: commons-io-2.5.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: junit-platform-commons-1.0.0-M6.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: sisu-inject-plexus-1.4.2.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: maven-settings-builder-3.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: plexus-utils-3.0.22.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: opentest4j-1.0.0-M3.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: plexus-classworlds-2.2.3.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: junit-4.12.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: plexus-interpolation-1.14.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: plexus-compiler-manager-2.8.2.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: junit-jupiter-api-5.0.0-M6.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: plexus-component-annotations-1.5.5.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: hamcrest-core-1.3.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: sisu-inject-bean-1.4.2.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: maven-aether-provider-3.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: plexus-sec-dispatcher-1.3.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: junit-jupiter-params-5.0.0-M6.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: tictactoe-0.2.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: maven-shared-incremental-1.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: plexus-cipher-1.4.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: sisu-guice-2.1.7-noaop.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: junit-vintage-engine-4.12.0-M6.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: plexus-java-0.9.2.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: maven-plugin-api-3.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: junit-platform-launcher-1.0.0-M6.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: maven-repository-metadata-3.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: asm-6.0_BETA.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: maven-model-3.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: javaserver-0.5.4.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: maven-model-builder-3.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: maven-core-3.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: maven-artifact-3.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: junit-jupiter-engine-5.0.0-M6.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: qdox-2.0-M7.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: maven-settings-3.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: aether-impl-1.7.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: plexus-compiler-api-2.8.2.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: junit-platform-engine-1.0.0-M6.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: aether-api-1.7.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: aether-spi-1.7.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: scalactic_2.12-3.0.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: aether-util-1.7.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: maven-shared-utils-3.1.0.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: scala-library.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: scala-reflect.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: scala-compiler.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding from cache: scala-xml_2.12-1.0.6.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mCalculate mappings...[0m
+[0m[[0m[0minfo[0m] [0m[0mChecking every *.class/*.jar file's SHA-1.[0m
+[0m[[0m[0minfo[0m] [0m[0mMerging files...[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/DEPENDENCIES' with strategy 'discard'[0m
+[0m[[0m[0mdebug[0m] [0m[0mMerging 'META-INF/LICENSE-notice.md' with strategy 'deduplicate'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/MANIFEST.MF' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.thoughtworks.qdox/qdox/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/com.thoughtworks.qdox/qdox/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/commons-io/commons-io/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/commons-io/commons-io/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/jline/jline/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/jline/jline/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.maven.shared/maven-shared-incremental/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.maven.shared/maven-shared-incremental/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.maven.shared/maven-shared-utils/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.maven.shared/maven-shared-utils/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.maven/maven-aether-provider/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.maven/maven-aether-provider/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.maven/maven-artifact/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.maven/maven-artifact/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.maven/maven-core/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.maven/maven-core/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.maven/maven-model-builder/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.maven/maven-model-builder/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.maven/maven-model/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.maven/maven-model/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.maven/maven-plugin-api/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.maven/maven-plugin-api/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.maven/maven-repository-metadata/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.maven/maven-repository-metadata/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.maven/maven-settings-builder/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.maven/maven-settings-builder/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.maven/maven-settings/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.apache.maven/maven-settings/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.clojars.kyleannen/javaserver/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.clojars.kyleannen/javaserver/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.clojars.kyleannen/tictactoe/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.clojars.kyleannen/tictactoe/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.codehaus.plexus/plexus-classworlds/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.codehaus.plexus/plexus-classworlds/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.codehaus.plexus/plexus-compiler-api/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.codehaus.plexus/plexus-compiler-api/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.codehaus.plexus/plexus-compiler-javac/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.codehaus.plexus/plexus-compiler-javac/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.codehaus.plexus/plexus-compiler-manager/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.codehaus.plexus/plexus-compiler-manager/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.codehaus.plexus/plexus-component-annotations/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.codehaus.plexus/plexus-component-annotations/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.codehaus.plexus/plexus-interpolation/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.codehaus.plexus/plexus-interpolation/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.codehaus.plexus/plexus-java/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.codehaus.plexus/plexus-java/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.codehaus.plexus/plexus-utils/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.codehaus.plexus/plexus-utils/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.sonatype.aether/aether-api/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.sonatype.aether/aether-api/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.sonatype.aether/aether-impl/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.sonatype.aether/aether-impl/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.sonatype.aether/aether-spi/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.sonatype.aether/aether-spi/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.sonatype.aether/aether-util/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.sonatype.aether/aether-util/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.sonatype.plexus/plexus-cipher/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.sonatype.plexus/plexus-cipher/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.sonatype.plexus/plexus-sec-dispatcher/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.sonatype.plexus/plexus-sec-dispatcher/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.sonatype.sisu/sisu-inject-bean/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.sonatype.sisu/sisu-inject-bean/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.sonatype.sisu/sisu-inject-plexus/pom.properties' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/maven/org.sonatype.sisu/sisu-inject-plexus/pom.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/plexus/artifact-handlers.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/plexus/components.xml' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/services/org.junit.platform.engine.TestEngine' with strategy 'filterDistinctLines'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'rootdoc.txt' with strategy 'concat'[0m
+[0m[[0m[33mwarn[0m] [0m[0mStrategy 'concat' was applied to a file[0m
+[0m[[0m[0minfo[0m] [0m[0mStrategy 'deduplicate' was applied to a file (Run the task at debug level to see details)[0m
+[0m[[0m[33mwarn[0m] [0m[0mStrategy 'discard' was applied to 68 files[0m
+[0m[[0m[33mwarn[0m] [0m[0mStrategy 'filterDistinctLines' was applied to a file[0m
+[0m[[0m[0minfo[0m] [0m[0mAssembly up to date: /Users/kyleannen/Code/jsonserver/target/jsonserver-assembly-0.1.jar[0m

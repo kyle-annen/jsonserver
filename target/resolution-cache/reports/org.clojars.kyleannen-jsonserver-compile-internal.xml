@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.clojars.kyleannen"
+		module="jsonserver"
+		revision="0.1"
+		conf="compile-internal"
+		confs="compile, runtime, test, provided, optional, universal, universal-docs, universal-src, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20171010094722"/>
+	<dependencies>
+		<module organisation="org.apache.maven.plugins" name="maven-compiler-plugin">
+			<revision name="3.7.0" status="release" pubdate="20170901080424" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="15">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="9734" time="0" location="/Users/kyleannen/.ivy2/cache/org.apache.maven.plugins/maven-compiler-plugin/ivy-3.7.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.7.0/maven-compiler-plugin-3.7.0.pom"/>
+				<caller organisation="org.clojars.kyleannen" name="jsonserver" conf="compile-internal, compile, provided, optional" rev="3.7.0" rev-constraint-default="3.7.0" rev-constraint-dynamic="3.7.0" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="maven-compiler-plugin" type="maven-plugin" ext="jar" status="no" details="" size="58222" time="0" location="/Users/kyleannen/.ivy2/cache/org.apache.maven.plugins/maven-compiler-plugin/maven-plugins/maven-compiler-plugin-3.7.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/maven/plugins/maven-compiler-plugin/3.7.0/maven-compiler-plugin-3.7.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.plexus" name="plexus-compiler-javac">
+			<revision name="2.8.2" status="release" pubdate="20170601065008" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="46">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6608" time="0" location="/Users/kyleannen/.ivy2/cache/org.codehaus.plexus/plexus-compiler-javac/ivy-2.8.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.8.2/plexus-compiler-javac-2.8.2.pom"/>
+				<caller organisation="org.apache.maven.plugins" name="maven-compiler-plugin" conf="default, compile, runtime, master" rev="2.8.2" rev-constraint-default="2.8.2" rev-constraint-dynamic="2.8.2" callerrev="3.7.0"/>
+				<artifacts>
+					<artifact name="plexus-compiler-javac" type="jar" ext="jar" status="no" details="" size="20067" time="0" location="/Users/kyleannen/.ivy2/cache/org.codehaus.plexus/plexus-compiler-javac/jars/plexus-compiler-javac-2.8.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-javac/2.8.2/plexus-compiler-javac-2.8.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.plexus" name="plexus-compiler-manager">
+			<revision name="2.8.2" status="release" pubdate="20170601064620" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="44">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5731" time="0" location="/Users/kyleannen/.ivy2/cache/org.codehaus.plexus/plexus-compiler-manager/ivy-2.8.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.8.2/plexus-compiler-manager-2.8.2.pom"/>
+				<caller organisation="org.apache.maven.plugins" name="maven-compiler-plugin" conf="default, compile, runtime, master" rev="2.8.2" rev-constraint-default="2.8.2" rev-constraint-dynamic="2.8.2" callerrev="3.7.0"/>
+				<artifacts>
+					<artifact name="plexus-compiler-manager" type="jar" ext="jar" status="no" details="" size="4683" time="0" location="/Users/kyleannen/.ivy2/cache/org.codehaus.plexus/plexus-compiler-manager/jars/plexus-compiler-manager-2.8.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-manager/2.8.2/plexus-compiler-manager-2.8.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.plexus" name="plexus-compiler-api">
+			<revision name="2.8.2" status="release" pubdate="20170601064524" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="42">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5903" time="0" location="/Users/kyleannen/.ivy2/cache/org.codehaus.plexus/plexus-compiler-api/ivy-2.8.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.8.2/plexus-compiler-api-2.8.2.pom"/>
+				<caller organisation="org.codehaus.plexus" name="plexus-compiler-manager" conf="compile, runtime" rev="2.8.2" rev-constraint-default="2.8.2" rev-constraint-dynamic="2.8.2" callerrev="2.8.2"/>
+				<caller organisation="org.apache.maven.plugins" name="maven-compiler-plugin" conf="default, compile, runtime, master" rev="2.8.2" rev-constraint-default="2.8.2" rev-constraint-dynamic="2.8.2" callerrev="3.7.0"/>
+				<caller organisation="org.codehaus.plexus" name="plexus-compiler-javac" conf="compile, runtime" rev="2.8.2" rev-constraint-default="2.8.2" rev-constraint-dynamic="2.8.2" callerrev="2.8.2"/>
+				<artifacts>
+					<artifact name="plexus-compiler-api" type="jar" ext="jar" status="no" details="" size="26386" time="0" location="/Users/kyleannen/.ivy2/cache/org.codehaus.plexus/plexus-compiler-api/jars/plexus-compiler-api-2.8.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-compiler-api/2.8.2/plexus-compiler-api-2.8.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.plexus" name="plexus-utils">
+			<revision name="3.0.22" status="release" pubdate="20150407111026" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://plexus.codehaus.org/plexus-utils" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="43">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7382" time="0" location="/Users/kyleannen/.ivy2/cache/org.codehaus.plexus/plexus-utils/ivy-3.0.22.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.pom"/>
+				<caller organisation="org.sonatype.sisu" name="sisu-inject-plexus" conf="compile, runtime" rev="2.0.5" rev-constraint-default="2.0.5" rev-constraint-dynamic="2.0.5" callerrev="1.4.2"/>
+				<caller organisation="org.apache.maven" name="maven-settings" conf="compile, runtime" rev="2.0.4" rev-constraint-default="2.0.4" rev-constraint-dynamic="2.0.4" callerrev="3.0"/>
+				<caller organisation="org.apache.maven" name="maven-settings-builder" conf="compile, runtime" rev="2.0.4" rev-constraint-default="2.0.4" rev-constraint-dynamic="2.0.4" callerrev="3.0"/>
+				<caller organisation="org.apache.maven" name="maven-repository-metadata" conf="compile, runtime" rev="2.0.4" rev-constraint-default="2.0.4" rev-constraint-dynamic="2.0.4" callerrev="3.0"/>
+				<caller organisation="org.apache.maven" name="maven-core" conf="compile, runtime" rev="2.0.4" rev-constraint-default="2.0.4" rev-constraint-dynamic="2.0.4" callerrev="3.0"/>
+				<caller organisation="org.apache.maven" name="maven-artifact" conf="compile, runtime" rev="2.0.4" rev-constraint-default="2.0.4" rev-constraint-dynamic="2.0.4" callerrev="3.0"/>
+				<caller organisation="org.codehaus.plexus" name="plexus-compiler-api" conf="compile, runtime" rev="3.0.22" rev-constraint-default="3.0.22" rev-constraint-dynamic="3.0.22" callerrev="2.8.2"/>
+				<caller organisation="org.apache.maven" name="maven-model-builder" conf="compile, runtime" rev="2.0.4" rev-constraint-default="2.0.4" rev-constraint-dynamic="2.0.4" callerrev="3.0"/>
+				<caller organisation="org.apache.maven" name="maven-model" conf="compile, runtime" rev="2.0.4" rev-constraint-default="2.0.4" rev-constraint-dynamic="2.0.4" callerrev="3.0"/>
+				<caller organisation="org.codehaus.plexus" name="plexus-compiler-javac" conf="compile, runtime" rev="3.0.22" rev-constraint-default="3.0.22" rev-constraint-dynamic="3.0.22" callerrev="2.8.2"/>
+				<caller organisation="org.sonatype.plexus" name="plexus-sec-dispatcher" conf="compile, runtime" rev="1.5.5" rev-constraint-default="1.5.5" rev-constraint-dynamic="1.5.5" callerrev="1.3"/>
+				<artifacts>
+					<artifact name="plexus-utils" type="jar" ext="jar" status="no" details="" size="244897" time="0" location="/Users/kyleannen/.ivy2/cache/org.codehaus.plexus/plexus-utils/jars/plexus-utils-3.0.22.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/3.0.22/plexus-utils-3.0.22.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.0.5" status="release" pubdate="20100425111547" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://plexus.codehaus.org/plexus-utils" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3201" time="0" location="/Users/kyleannen/.ivy2/cache/org.codehaus.plexus/plexus-utils/ivy-2.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/2.0.5/plexus-utils-2.0.5.pom"/>
+				<evicted-by rev="3.0.22"/>
+				<caller organisation="org.sonatype.sisu" name="sisu-inject-plexus" conf="compile, runtime" rev="2.0.5" rev-constraint-default="2.0.5" rev-constraint-dynamic="2.0.5" callerrev="1.4.2"/>
+				<caller organisation="org.apache.maven" name="maven-settings" conf="compile, runtime" rev="2.0.4" rev-constraint-default="2.0.4" rev-constraint-dynamic="2.0.4" callerrev="3.0"/>
+				<caller organisation="org.apache.maven" name="maven-settings-builder" conf="compile, runtime" rev="2.0.4" rev-constraint-default="2.0.4" rev-constraint-dynamic="2.0.4" callerrev="3.0"/>
+				<caller organisation="org.apache.maven" name="maven-repository-metadata" conf="compile, runtime" rev="2.0.4" rev-constraint-default="2.0.4" rev-constraint-dynamic="2.0.4" callerrev="3.0"/>
+				<caller organisation="org.apache.maven" name="maven-core" conf="compile, runtime" rev="2.0.4" rev-constraint-default="2.0.4" rev-constraint-dynamic="2.0.4" callerrev="3.0"/>
+				<caller organisation="org.apache.maven" name="maven-artifact" conf="compile, runtime" rev="2.0.4" rev-constraint-default="2.0.4" rev-constraint-dynamic="2.0.4" callerrev="3.0"/>
+				<caller organisation="org.apache.maven" name="maven-model-builder" conf="compile, runtime" rev="2.0.4" rev-constraint-default="2.0.4" rev-constraint-dynamic="2.0.4" callerrev="3.0"/>
+				<caller organisation="org.apache.maven" name="maven-model" conf="compile, runtime" rev="2.0.4" rev-constraint-default="2.0.4" rev-constraint-dynamic="2.0.4" callerrev="3.0"/>
+				<caller organisation="org.sonatype.plexus" name="plexus-sec-dispatcher" conf="compile, runtime" rev="1.5.5" rev-constraint-default="1.5.5" rev-constraint-dynamic="1.5.5" callerrev="1.3"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="2.0.4" status="release" pubdate="20100422030949" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://plexus.codehaus.org/plexus-utils" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3201" time="0" location="/Users/kyleannen/.ivy2/cache/org.codehaus.plexus/plexus-utils/ivy-2.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-utils/2.0.4/plexus-utils-2.0.4.pom"/>
+				<evicted-by rev="3.0.22"/>
+				<caller organisation="org.apache.maven" name="maven-settings" conf="compile, runtime" rev="2.0.4" rev-constraint-default="2.0.4" rev-constraint-dynamic="2.0.4" callerrev="3.0"/>
+				<caller organisation="org.apache.maven" name="maven-settings-builder" conf="compile, runtime" rev="2.0.4" rev-constraint-default="2.0.4" rev-constraint-dynamic="2.0.4" callerrev="3.0"/>
+				<caller organisation="org.apache.maven" name="maven-repository-metadata" conf="compile, runtime" rev="2.0.4" rev-constraint-default="2.0.4" rev-constraint-dynamic="2.0.4" callerrev="3.0"/>
+				<caller organisation="org.apache.maven" name="maven-core" conf="compile, runtime" rev="2.0.4" rev-constraint-default="2.0.4" rev-constraint-dynamic="2.0.4" callerrev="3.0"/>
+				<caller organisation="org.apache.maven" name="maven-artifact" conf="compile, runtime" rev="2.0.4" rev-constraint-default="2.0.4" rev-constraint-dynamic="2.0.4" callerrev="3.0"/>
+				<caller organisation="org.apache.maven" name="maven-model-builder" conf="compile, runtime" rev="2.0.4" rev-constraint-default="2.0.4" rev-constraint-dynamic="2.0.4" callerrev="3.0"/>
+				<caller organisation="org.apache.maven" name="maven-model" conf="compile, runtime" rev="2.0.4" rev-constraint-default="2.0.4" rev-constraint-dynamic="2.0.4" callerrev="3.0"/>
+				<caller organisation="org.sonatype.plexus" name="plexus-sec-dispatcher" conf="compile, runtime" rev="1.5.5" rev-constraint-default="1.5.5" rev-constraint-dynamic="1.5.5" callerrev="1.3"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+			<revision name="1.5.5" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="3.0.22"/>
+				<caller organisation="org.sonatype.plexus" name="plexus-sec-dispatcher" conf="compile, runtime" rev="1.5.5" rev-constraint-default="1.5.5" rev-constraint-dynamic="1.5.5" callerrev="1.3"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.plexus" name="plexus-java">
+			<revision name="0.9.2" status="release" pubdate="20170821143758" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5002" time="0" location="/Users/kyleannen/.ivy2/cache/org.codehaus.plexus/plexus-java/ivy-0.9.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-java/0.9.2/plexus-java-0.9.2.pom"/>
+				<caller organisation="org.apache.maven.plugins" name="maven-compiler-plugin" conf="default, compile, runtime, master" rev="0.9.2" rev-constraint-default="0.9.2" rev-constraint-dynamic="0.9.2" callerrev="3.7.0"/>
+				<artifacts>
+					<artifact name="plexus-java" type="jar" ext="jar" status="no" details="" size="31174" time="0" location="/Users/kyleannen/.ivy2/cache/org.codehaus.plexus/plexus-java/jars/plexus-java-0.9.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-java/0.9.2/plexus-java-0.9.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.qdox" name="qdox">
+			<revision name="2.0-M7" status="release" pubdate="20170812032618" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/paul-hammant/qdox" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="41">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3972" time="0" location="/Users/kyleannen/.ivy2/cache/com.thoughtworks.qdox/qdox/ivy-2.0-M7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/qdox/qdox/2.0-M7/qdox-2.0-M7.pom"/>
+				<caller organisation="org.codehaus.plexus" name="plexus-java" conf="compile, runtime" rev="2.0-M7" rev-constraint-default="2.0-M7" rev-constraint-dynamic="2.0-M7" callerrev="0.9.2"/>
+				<artifacts>
+					<artifact name="qdox" type="jar" ext="jar" status="no" details="" size="315037" time="0" location="/Users/kyleannen/.ivy2/cache/com.thoughtworks.qdox/qdox/jars/qdox-2.0-M7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/qdox/qdox/2.0-M7/qdox-2.0-M7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm">
+			<revision name="6.0_BETA" status="release" pubdate="20170717133937" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="40">
+				<license name="BSD" url="http://asm.objectweb.org/license.html"/>
+				<metadata-artifact status="no" details="" size="3974" time="0" location="/Users/kyleannen/.ivy2/cache/org.ow2.asm/asm/ivy-6.0_BETA.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA.pom"/>
+				<caller organisation="org.codehaus.plexus" name="plexus-java" conf="compile, runtime" rev="6.0_BETA" rev-constraint-default="6.0_BETA" rev-constraint-dynamic="6.0_BETA" callerrev="0.9.2"/>
+				<artifacts>
+					<artifact name="asm" type="jar" ext="jar" status="no" details="" size="56452" time="0" location="/Users/kyleannen/.ivy2/cache/org.ow2.asm/asm/jars/asm-6.0_BETA.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm/6.0_BETA/asm-6.0_BETA.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.maven.shared" name="maven-shared-incremental">
+			<revision name="1.1" status="release" pubdate="20130403070116" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="38">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6774" time="0" location="/Users/kyleannen/.ivy2/cache/org.apache.maven.shared/maven-shared-incremental/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.pom"/>
+				<caller organisation="org.apache.maven.plugins" name="maven-compiler-plugin" conf="default, compile, runtime, master" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="3.7.0"/>
+				<artifacts>
+					<artifact name="maven-shared-incremental" type="jar" ext="jar" status="no" details="" size="13538" time="0" location="/Users/kyleannen/.ivy2/cache/org.apache.maven.shared/maven-shared-incremental/jars/maven-shared-incremental-1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/maven/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.maven.shared" name="maven-shared-utils">
+			<revision name="3.1.0" status="release" pubdate="20160720163419" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+				<license name="Apache License, Version 2.0" url="https://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="7708" time="0" location="/Users/kyleannen/.ivy2/cache/org.apache.maven.shared/maven-shared-utils/ivy-3.1.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/shared/maven-shared-utils/3.1.0/maven-shared-utils-3.1.0.pom"/>
+				<caller organisation="org.apache.maven.plugins" name="maven-compiler-plugin" conf="default, compile, runtime, master" rev="3.1.0" rev-constraint-default="3.1.0" rev-constraint-dynamic="3.1.0" callerrev="3.7.0"/>
+				<caller organisation="org.apache.maven.shared" name="maven-shared-incremental" conf="compile, runtime" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="1.1"/>
+				<artifacts>
+					<artifact name="maven-shared-utils" type="jar" ext="jar" status="no" details="" size="163692" time="0" location="/Users/kyleannen/.ivy2/cache/org.apache.maven.shared/maven-shared-utils/jars/maven-shared-utils-3.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/maven/shared/maven-shared-utils/3.1.0/maven-shared-utils-3.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="0.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="3.1.0"/>
+				<caller organisation="org.apache.maven.shared" name="maven-shared-incremental" conf="compile, runtime" rev="0.1" rev-constraint-default="0.1" rev-constraint-dynamic="0.1" callerrev="1.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-io" name="commons-io">
+			<revision name="2.5" status="release" pubdate="20160422095236" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://commons.apache.org/proper/commons-io/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11588" time="0" location="/Users/kyleannen/.ivy2/cache/commons-io/commons-io/ivy-2.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.pom"/>
+				<caller organisation="org.apache.maven.shared" name="maven-shared-utils" conf="compile, runtime" rev="2.5" rev-constraint-default="2.5" rev-constraint-dynamic="2.5" callerrev="3.1.0"/>
+				<artifacts>
+					<artifact name="commons-io" type="jar" ext="jar" status="no" details="" size="208700" time="0" location="/Users/kyleannen/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-io/commons-io/2.5/commons-io-2.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.maven" name="maven-core">
+			<revision name="3.0" status="release" pubdate="20101004065141" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="12777" time="0" location="/Users/kyleannen/.ivy2/cache/org.apache.maven/maven-core/ivy-3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/maven-core/3.0/maven-core-3.0.pom"/>
+				<caller organisation="org.apache.maven.plugins" name="maven-compiler-plugin" conf="default, compile, runtime, master" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="3.7.0"/>
+				<caller organisation="org.apache.maven.shared" name="maven-shared-incremental" conf="compile, runtime" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="1.1"/>
+				<artifacts>
+					<artifact name="maven-core" type="jar" ext="jar" status="no" details="" size="527040" time="0" location="/Users/kyleannen/.ivy2/cache/org.apache.maven/maven-core/jars/maven-core-3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/maven/maven-core/3.0/maven-core-3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.2.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="3.0"/>
+				<caller organisation="org.apache.maven.shared" name="maven-shared-incremental" conf="compile, runtime" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="1.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.maven" name="maven-aether-provider">
+			<revision name="3.0" status="release" pubdate="20101004065046" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="45">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="11074" time="0" location="/Users/kyleannen/.ivy2/cache/org.apache.maven/maven-aether-provider/ivy-3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.pom"/>
+				<caller organisation="org.apache.maven" name="maven-core" conf="compile, runtime" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="3.0"/>
+				<artifacts>
+					<artifact name="maven-aether-provider" type="jar" ext="jar" status="no" details="" size="51189" time="0" location="/Users/kyleannen/.ivy2/cache/org.apache.maven/maven-aether-provider/jars/maven-aether-provider-3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/maven/maven-aether-provider/3.0/maven-aether-provider-3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.sonatype.aether" name="aether-impl">
+			<revision name="1.7" status="release" pubdate="20101004040213" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4916" time="0" location="/Users/kyleannen/.ivy2/cache/org.sonatype.aether/aether-impl/ivy-1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.pom"/>
+				<caller organisation="org.apache.maven" name="maven-core" conf="compile, runtime" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="3.0"/>
+				<caller organisation="org.apache.maven" name="maven-aether-provider" conf="compile, runtime" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="3.0"/>
+				<artifacts>
+					<artifact name="aether-impl" type="jar" ext="jar" status="no" details="" size="106275" time="0" location="/Users/kyleannen/.ivy2/cache/org.sonatype.aether/aether-impl/jars/aether-impl-1.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/sonatype/aether/aether-impl/1.7/aether-impl-1.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.sonatype.aether" name="aether-spi">
+			<revision name="1.7" status="release" pubdate="20101004040106" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3544" time="0" location="/Users/kyleannen/.ivy2/cache/org.sonatype.aether/aether-spi/ivy-1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.pom"/>
+				<caller organisation="org.sonatype.aether" name="aether-impl" conf="compile, runtime" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="1.7"/>
+				<artifacts>
+					<artifact name="aether-spi" type="jar" ext="jar" status="no" details="" size="13549" time="0" location="/Users/kyleannen/.ivy2/cache/org.sonatype.aether/aether-spi/jars/aether-spi-1.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/sonatype/aether/aether-spi/1.7/aether-spi-1.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.sonatype.aether" name="aether-util">
+			<revision name="1.7" status="release" pubdate="20101004040146" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3757" time="0" location="/Users/kyleannen/.ivy2/cache/org.sonatype.aether/aether-util/ivy-1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/sonatype/aether/aether-util/1.7/aether-util-1.7.pom"/>
+				<caller organisation="org.apache.maven" name="maven-core" conf="compile, runtime" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="3.0"/>
+				<caller organisation="org.apache.maven" name="maven-aether-provider" conf="compile, runtime" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="3.0"/>
+				<caller organisation="org.sonatype.aether" name="aether-impl" conf="compile, runtime" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="1.7"/>
+				<artifacts>
+					<artifact name="aether-util" type="jar" ext="jar" status="no" details="" size="107949" time="0" location="/Users/kyleannen/.ivy2/cache/org.sonatype.aether/aether-util/jars/aether-util-1.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/sonatype/aether/aether-util/1.7/aether-util-1.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.sonatype.aether" name="aether-api">
+			<revision name="1.7" status="release" pubdate="20101004040041" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3473" time="0" location="/Users/kyleannen/.ivy2/cache/org.sonatype.aether/aether-api/ivy-1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/sonatype/aether/aether-api/1.7/aether-api-1.7.pom"/>
+				<caller organisation="org.apache.maven" name="maven-core" conf="compile, runtime" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="3.0"/>
+				<caller organisation="org.apache.maven" name="maven-aether-provider" conf="compile, runtime" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="3.0"/>
+				<caller organisation="org.sonatype.aether" name="aether-impl" conf="compile, runtime" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="1.7"/>
+				<caller organisation="org.sonatype.aether" name="aether-spi" conf="compile, runtime" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="1.7"/>
+				<caller organisation="org.sonatype.aether" name="aether-util" conf="compile, runtime" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="1.7"/>
+				<artifacts>
+					<artifact name="aether-api" type="jar" ext="jar" status="no" details="" size="74176" time="0" location="/Users/kyleannen/.ivy2/cache/org.sonatype.aether/aether-api/jars/aether-api-1.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/sonatype/aether/aether-api/1.7/aether-api-1.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.maven" name="maven-model-builder">
+			<revision name="3.0" status="release" pubdate="20101004065018" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10795" time="0" location="/Users/kyleannen/.ivy2/cache/org.apache.maven/maven-model-builder/ivy-3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.pom"/>
+				<caller organisation="org.apache.maven" name="maven-core" conf="compile, runtime" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="3.0"/>
+				<caller organisation="org.apache.maven" name="maven-aether-provider" conf="compile, runtime" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="3.0"/>
+				<artifacts>
+					<artifact name="maven-model-builder" type="jar" ext="jar" status="no" details="" size="147974" time="0" location="/Users/kyleannen/.ivy2/cache/org.apache.maven/maven-model-builder/jars/maven-model-builder-3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/maven/maven-model-builder/3.0/maven-model-builder-3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.maven" name="maven-repository-metadata">
+			<revision name="3.0" status="release" pubdate="20101004064915" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10151" time="0" location="/Users/kyleannen/.ivy2/cache/org.apache.maven/maven-repository-metadata/ivy-3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.pom"/>
+				<caller organisation="org.apache.maven" name="maven-core" conf="compile, runtime" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="3.0"/>
+				<caller organisation="org.apache.maven" name="maven-aether-provider" conf="compile, runtime" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="3.0"/>
+				<artifacts>
+					<artifact name="maven-repository-metadata" type="jar" ext="jar" status="no" details="" size="30082" time="0" location="/Users/kyleannen/.ivy2/cache/org.apache.maven/maven-repository-metadata/jars/maven-repository-metadata-3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/maven/maven-repository-metadata/3.0/maven-repository-metadata-3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.maven" name="maven-settings-builder">
+			<revision name="3.0" status="release" pubdate="20101004064857" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10830" time="0" location="/Users/kyleannen/.ivy2/cache/org.apache.maven/maven-settings-builder/ivy-3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.pom"/>
+				<caller organisation="org.apache.maven" name="maven-core" conf="compile, runtime" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="3.0"/>
+				<artifacts>
+					<artifact name="maven-settings-builder" type="jar" ext="jar" status="no" details="" size="37780" time="0" location="/Users/kyleannen/.ivy2/cache/org.apache.maven/maven-settings-builder/jars/maven-settings-builder-3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/maven/maven-settings-builder/3.0/maven-settings-builder-3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.sonatype.plexus" name="plexus-sec-dispatcher">
+			<revision name="1.3" status="release" pubdate="20090429150532" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spice.sonatype.org/${project.artifactId}" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="Apache Public License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="6250" time="0" location="/Users/kyleannen/.ivy2/cache/org.sonatype.plexus/plexus-sec-dispatcher/ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.pom"/>
+				<caller organisation="org.apache.maven" name="maven-settings-builder" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="3.0"/>
+				<caller organisation="org.apache.maven" name="maven-core" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="3.0"/>
+				<artifacts>
+					<artifact name="plexus-sec-dispatcher" type="jar" ext="jar" status="no" details="" size="28555" time="0" location="/Users/kyleannen/.ivy2/cache/org.sonatype.plexus/plexus-sec-dispatcher/jars/plexus-sec-dispatcher-1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.sonatype.plexus" name="plexus-cipher">
+			<revision name="1.4" status="release" pubdate="20090429144002" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spice.sonatype.org/${project.artifactId}" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="Apache Public License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="5886" time="0" location="/Users/kyleannen/.ivy2/cache/org.sonatype.plexus/plexus-cipher/ivy-1.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.pom"/>
+				<caller organisation="org.sonatype.plexus" name="plexus-sec-dispatcher" conf="compile, runtime" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="1.3"/>
+				<artifacts>
+					<artifact name="plexus-cipher" type="jar" ext="jar" status="no" details="" size="13494" time="0" location="/Users/kyleannen/.ivy2/cache/org.sonatype.plexus/plexus-cipher/jars/plexus-cipher-1.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.plexus" name="plexus-component-annotations">
+			<revision name="1.5.5" status="release" pubdate="20100930151459" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5287" time="0" location="/Users/kyleannen/.ivy2/cache/org.codehaus.plexus/plexus-component-annotations/ivy-1.5.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom"/>
+				<caller organisation="org.sonatype.sisu" name="sisu-inject-plexus" conf="compile, runtime" rev="1.5.4" rev-constraint-default="1.5.4" rev-constraint-dynamic="1.5.4" callerrev="1.4.2"/>
+				<caller organisation="org.apache.maven" name="maven-settings-builder" conf="compile, runtime" rev="1.5.5" rev-constraint-default="1.5.5" rev-constraint-dynamic="1.5.5" callerrev="3.0"/>
+				<caller organisation="org.apache.maven" name="maven-core" conf="compile, runtime" rev="1.5.5" rev-constraint-default="1.5.5" rev-constraint-dynamic="1.5.5" callerrev="3.0"/>
+				<caller organisation="org.apache.maven" name="maven-model-builder" conf="compile, runtime" rev="1.5.5" rev-constraint-default="1.5.5" rev-constraint-dynamic="1.5.5" callerrev="3.0"/>
+				<caller organisation="org.apache.maven" name="maven-aether-provider" conf="compile, runtime" rev="1.5.5" rev-constraint-default="1.5.5" rev-constraint-dynamic="1.5.5" callerrev="3.0"/>
+				<caller organisation="org.apache.maven.shared" name="maven-shared-incremental" conf="compile, runtime" rev="1.5.5" rev-constraint-default="1.5.5" rev-constraint-dynamic="1.5.5" callerrev="1.1"/>
+				<artifacts>
+					<artifact name="plexus-component-annotations" type="jar" ext="jar" status="no" details="" size="4211" time="0" location="/Users/kyleannen/.ivy2/cache/org.codehaus.plexus/plexus-component-annotations/jars/plexus-component-annotations-1.5.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.5.4" status="release" pubdate="20100130164931" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5297" time="0" location="/Users/kyleannen/.ivy2/cache/org.codehaus.plexus/plexus-component-annotations/ivy-1.5.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-component-annotations/1.5.4/plexus-component-annotations-1.5.4.pom"/>
+				<evicted-by rev="1.5.5"/>
+				<caller organisation="org.sonatype.sisu" name="sisu-inject-plexus" conf="compile, runtime" rev="1.5.4" rev-constraint-default="1.5.4" rev-constraint-dynamic="1.5.4" callerrev="1.4.2"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.plexus" name="plexus-interpolation">
+			<revision name="1.14" status="release" pubdate="20100923141505" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3597" time="0" location="/Users/kyleannen/.ivy2/cache/org.codehaus.plexus/plexus-interpolation/ivy-1.14.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.pom"/>
+				<caller organisation="org.apache.maven" name="maven-settings-builder" conf="compile, runtime" rev="1.14" rev-constraint-default="1.14" rev-constraint-dynamic="1.14" callerrev="3.0"/>
+				<caller organisation="org.apache.maven" name="maven-core" conf="compile, runtime" rev="1.14" rev-constraint-default="1.14" rev-constraint-dynamic="1.14" callerrev="3.0"/>
+				<caller organisation="org.apache.maven" name="maven-model-builder" conf="compile, runtime" rev="1.14" rev-constraint-default="1.14" rev-constraint-dynamic="1.14" callerrev="3.0"/>
+				<artifacts>
+					<artifact name="plexus-interpolation" type="jar" ext="jar" status="no" details="" size="61072" time="0" location="/Users/kyleannen/.ivy2/cache/org.codehaus.plexus/plexus-interpolation/jars/plexus-interpolation-1.14.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.maven" name="maven-settings">
+			<revision name="3.0" status="release" pubdate="20101004064840" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10109" time="0" location="/Users/kyleannen/.ivy2/cache/org.apache.maven/maven-settings/ivy-3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/maven-settings/3.0/maven-settings-3.0.pom"/>
+				<caller organisation="org.apache.maven" name="maven-settings-builder" conf="compile, runtime" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="3.0"/>
+				<caller organisation="org.apache.maven" name="maven-core" conf="compile, runtime" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="3.0"/>
+				<artifacts>
+					<artifact name="maven-settings" type="jar" ext="jar" status="no" details="" size="46667" time="0" location="/Users/kyleannen/.ivy2/cache/org.apache.maven/maven-settings/jars/maven-settings-3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/maven/maven-settings/3.0/maven-settings-3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.maven" name="maven-plugin-api">
+			<revision name="3.0" status="release" pubdate="20101004064952" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10512" time="0" location="/Users/kyleannen/.ivy2/cache/org.apache.maven/maven-plugin-api/ivy-3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.pom"/>
+				<caller organisation="org.apache.maven.plugins" name="maven-compiler-plugin" conf="default, compile, runtime, master" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="3.7.0"/>
+				<caller organisation="org.apache.maven" name="maven-core" conf="compile, runtime" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="3.0"/>
+				<caller organisation="org.apache.maven.shared" name="maven-shared-incremental" conf="compile, runtime" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="1.1"/>
+				<artifacts>
+					<artifact name="maven-plugin-api" type="jar" ext="jar" status="no" details="" size="48920" time="0" location="/Users/kyleannen/.ivy2/cache/org.apache.maven/maven-plugin-api/jars/maven-plugin-api-3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="2.2.1" evicted="latest-revision" evicted-reason="" downloaded="false" searched="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<evicted-by rev="3.0"/>
+				<caller organisation="org.apache.maven.shared" name="maven-shared-incremental" conf="compile, runtime" rev="2.2.1" rev-constraint-default="2.2.1" rev-constraint-dynamic="2.2.1" callerrev="1.1"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.sonatype.sisu" name="sisu-inject-plexus">
+			<revision name="1.4.2" status="release" pubdate="20100924101513" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="8728" time="0" location="/Users/kyleannen/.ivy2/cache/org.sonatype.sisu/sisu-inject-plexus/ivy-1.4.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.pom"/>
+				<caller organisation="org.apache.maven" name="maven-core" conf="compile, runtime" rev="1.4.2" rev-constraint-default="1.4.2" rev-constraint-dynamic="1.4.2" callerrev="3.0"/>
+				<caller organisation="org.apache.maven" name="maven-plugin-api" conf="compile, runtime" rev="1.4.2" rev-constraint-default="1.4.2" rev-constraint-dynamic="1.4.2" callerrev="3.0"/>
+				<artifacts>
+					<artifact name="sisu-inject-plexus" type="bundle" ext="jar" status="no" details="" size="201716" time="0" location="/Users/kyleannen/.ivy2/cache/org.sonatype.sisu/sisu-inject-plexus/bundles/sisu-inject-plexus-1.4.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.sonatype.sisu" name="sisu-inject-bean">
+			<revision name="1.4.2" status="release" pubdate="20100924101241" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="6736" time="0" location="/Users/kyleannen/.ivy2/cache/org.sonatype.sisu/sisu-inject-bean/ivy-1.4.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.pom"/>
+				<caller organisation="org.sonatype.sisu" name="sisu-inject-plexus" conf="compile, runtime" rev="1.4.2" rev-constraint-default="1.4.2" rev-constraint-dynamic="1.4.2" callerrev="1.4.2"/>
+				<artifacts>
+					<artifact name="sisu-inject-bean" type="bundle" ext="jar" status="no" details="" size="152989" time="0" location="/Users/kyleannen/.ivy2/cache/org.sonatype.sisu/sisu-inject-bean/bundles/sisu-inject-bean-1.4.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.sonatype.sisu" name="sisu-guice">
+			<revision name="2.1.7" status="release" pubdate="20100915124428" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4187" time="0" location="/Users/kyleannen/.ivy2/cache/org.sonatype.sisu/sisu-guice/ivy-2.1.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7.pom"/>
+				<caller organisation="org.sonatype.sisu" name="sisu-inject-bean" conf="compile, runtime" rev="2.1.7" rev-constraint-default="2.1.7" rev-constraint-dynamic="2.1.7" callerrev="1.4.2"/>
+				<artifacts>
+					<artifact name="sisu-guice" type="jar" ext="jar" extra-classifier="noaop" status="no" details="" size="471737" time="0" location="/Users/kyleannen/.ivy2/cache/org.sonatype.sisu/sisu-guice/jars/sisu-guice-2.1.7-noaop.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.plexus" name="plexus-classworlds">
+			<revision name="2.2.3" status="release" pubdate="20100413070947" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3096" time="0" location="/Users/kyleannen/.ivy2/cache/org.codehaus.plexus/plexus-classworlds/ivy-2.2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.pom"/>
+				<caller organisation="org.sonatype.sisu" name="sisu-inject-plexus" conf="compile, runtime" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="1.4.2"/>
+				<caller organisation="org.apache.maven" name="maven-core" conf="compile, runtime" rev="2.2.3" rev-constraint-default="2.2.3" rev-constraint-dynamic="2.2.3" callerrev="3.0"/>
+				<artifacts>
+					<artifact name="plexus-classworlds" type="jar" ext="jar" status="no" details="" size="46099" time="0" location="/Users/kyleannen/.ivy2/cache/org.codehaus.plexus/plexus-classworlds/jars/plexus-classworlds-2.2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.maven" name="maven-artifact">
+			<revision name="3.0" status="release" pubdate="20101004064931" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10135" time="0" location="/Users/kyleannen/.ivy2/cache/org.apache.maven/maven-artifact/ivy-3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.pom"/>
+				<caller organisation="org.apache.maven.plugins" name="maven-compiler-plugin" conf="default, compile, runtime, master" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="3.7.0"/>
+				<caller organisation="org.apache.maven" name="maven-core" conf="compile, runtime" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="3.0"/>
+				<caller organisation="org.apache.maven" name="maven-plugin-api" conf="compile, runtime" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="3.0"/>
+				<artifacts>
+					<artifact name="maven-artifact" type="jar" ext="jar" status="no" details="" size="51908" time="0" location="/Users/kyleannen/.ivy2/cache/org.apache.maven/maven-artifact/jars/maven-artifact-3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/maven/maven-artifact/3.0/maven-artifact-3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.maven" name="maven-model">
+			<revision name="3.0" status="release" pubdate="20101004064816" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="10150" time="0" location="/Users/kyleannen/.ivy2/cache/org.apache.maven/maven-model/ivy-3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.0/maven-model-3.0.pom"/>
+				<caller organisation="org.apache.maven" name="maven-core" conf="compile, runtime" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="3.0"/>
+				<caller organisation="org.apache.maven" name="maven-model-builder" conf="compile, runtime" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="3.0"/>
+				<caller organisation="org.apache.maven" name="maven-plugin-api" conf="compile, runtime" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="3.0"/>
+				<artifacts>
+					<artifact name="maven-model" type="jar" ext="jar" status="no" details="" size="164685" time="0" location="/Users/kyleannen/.ivy2/cache/org.apache.maven/maven-model/jars/maven-model-3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/maven/maven-model/3.0/maven-model-3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.clojars.kyleannen" name="tictactoe">
+			<revision name="0.2.1" status="release" pubdate="20170929104642" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/kyle-annen/scala-tictactoe" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="14">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2873" time="0" location="/Users/kyleannen/.ivy2/cache/org.clojars.kyleannen/tictactoe/ivy-0.2.1.xml" searched="false" origin-is-local="false" origin-location="https://clojars.org/repo/org/clojars/kyleannen/tictactoe/0.2.1/tictactoe-0.2.1.pom"/>
+				<caller organisation="org.clojars.kyleannen" name="jsonserver" conf="compile-internal, compile, provided, optional" rev="0.2.1" rev-constraint-default="0.2.1" rev-constraint-dynamic="0.2.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="tictactoe" type="jar" ext="jar" status="no" details="" size="52440" time="0" location="/Users/kyleannen/.ivy2/cache/org.clojars.kyleannen/tictactoe/jars/tictactoe-0.2.1.jar">
+						<origin-location is-local="false" location="https://clojars.org/repo/org/clojars/kyleannen/tictactoe/0.2.1/tictactoe-0.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.clojars.kyleannen" name="javaserver">
+			<revision name="0.5.4" status="release" pubdate="20171006113358" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/kyle-annen/java-server" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3673" time="0" location="/Users/kyleannen/.ivy2/cache/org.clojars.kyleannen/javaserver/ivy-0.5.4.xml" searched="false" origin-is-local="false" origin-location="https://clojars.org/repo/org/clojars/kyleannen/javaserver/0.5.4/javaserver-0.5.4.pom"/>
+				<caller organisation="org.clojars.kyleannen" name="jsonserver" conf="compile-internal, compile, provided, optional" rev="0.5.4" rev-constraint-default="0.5.4" rev-constraint-dynamic="0.5.4" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="javaserver" type="jar" ext="jar" status="no" details="" size="36454" time="0" location="/Users/kyleannen/.ivy2/cache/org.clojars.kyleannen/javaserver/jars/javaserver-0.5.4.jar">
+						<origin-location is-local="false" location="https://clojars.org/repo/org/clojars/kyleannen/javaserver/0.5.4/javaserver-0.5.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit.vintage" name="junit-vintage-engine">
+			<revision name="4.12.0-M6" status="release" pubdate="20170718144153" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org/junit5/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="3734" time="0" location="/Users/kyleannen/.ivy2/cache/org.junit.vintage/junit-vintage-engine/ivy-4.12.0-M6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/junit/vintage/junit-vintage-engine/4.12.0-M6/junit-vintage-engine-4.12.0-M6.pom"/>
+				<caller organisation="org.clojars.kyleannen" name="javaserver" conf="default, compile, runtime, master" rev="4.12.0-M6" rev-constraint-default="4.12.0-M6" rev-constraint-dynamic="4.12.0-M6" callerrev="0.5.4"/>
+				<artifacts>
+					<artifact name="junit-vintage-engine" type="jar" ext="jar" status="no" details="" size="53005" time="0" location="/Users/kyleannen/.ivy2/cache/org.junit.vintage/junit-vintage-engine/jars/junit-vintage-engine-4.12.0-M6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/junit/vintage/junit-vintage-engine/4.12.0-M6/junit-vintage-engine-4.12.0-M6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit.jupiter" name="junit-jupiter-params">
+			<revision name="5.0.0-M6" status="release" pubdate="20170718142907" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org/junit5/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="3706" time="0" location="/Users/kyleannen/.ivy2/cache/org.junit.jupiter/junit-jupiter-params/ivy-5.0.0-M6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-params/5.0.0-M6/junit-jupiter-params-5.0.0-M6.pom"/>
+				<caller organisation="org.clojars.kyleannen" name="javaserver" conf="default, compile, runtime, master" rev="5.0.0-M6" rev-constraint-default="5.0.0-M6" rev-constraint-dynamic="5.0.0-M6" callerrev="0.5.4"/>
+				<artifacts>
+					<artifact name="junit-jupiter-params" type="jar" ext="jar" status="no" details="" size="418802" time="0" location="/Users/kyleannen/.ivy2/cache/org.junit.jupiter/junit-jupiter-params/jars/junit-jupiter-params-5.0.0-M6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-params/5.0.0-M6/junit-jupiter-params-5.0.0-M6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit.jupiter" name="junit-jupiter-engine">
+			<revision name="5.0.0-M6" status="release" pubdate="20170718142739" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org/junit5/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="3637" time="0" location="/Users/kyleannen/.ivy2/cache/org.junit.jupiter/junit-jupiter-engine/ivy-5.0.0-M6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.0.0-M6/junit-jupiter-engine-5.0.0-M6.pom"/>
+				<caller organisation="org.clojars.kyleannen" name="javaserver" conf="default, compile, runtime, master" rev="5.0.0-M6" rev-constraint-default="5.0.0-M6" rev-constraint-dynamic="5.0.0-M6" callerrev="0.5.4"/>
+				<artifacts>
+					<artifact name="junit-jupiter-engine" type="jar" ext="jar" status="no" details="" size="114245" time="0" location="/Users/kyleannen/.ivy2/cache/org.junit.jupiter/junit-jupiter-engine/jars/junit-jupiter-engine-5.0.0-M6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-engine/5.0.0-M6/junit-jupiter-engine-5.0.0-M6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit.platform" name="junit-platform-launcher">
+			<revision name="1.0.0-M6" status="release" pubdate="20170718143816" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org/junit5/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2741" time="0" location="/Users/kyleannen/.ivy2/cache/org.junit.platform/junit-platform-launcher/ivy-1.0.0-M6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/junit/platform/junit-platform-launcher/1.0.0-M6/junit-platform-launcher-1.0.0-M6.pom"/>
+				<caller organisation="org.clojars.kyleannen" name="javaserver" conf="default, compile, runtime, master" rev="1.0.0-M6" rev-constraint-default="1.0.0-M6" rev-constraint-dynamic="1.0.0-M6" callerrev="0.5.4"/>
+				<artifacts>
+					<artifact name="junit-platform-launcher" type="jar" ext="jar" status="no" details="" size="51265" time="0" location="/Users/kyleannen/.ivy2/cache/org.junit.platform/junit-platform-launcher/jars/junit-platform-launcher-1.0.0-M6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/junit/platform/junit-platform-launcher/1.0.0-M6/junit-platform-launcher-1.0.0-M6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit.platform" name="junit-platform-engine">
+			<revision name="1.0.0-M6" status="release" pubdate="20170718143602" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org/junit5/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="3001" time="0" location="/Users/kyleannen/.ivy2/cache/org.junit.platform/junit-platform-engine/ivy-1.0.0-M6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/junit/platform/junit-platform-engine/1.0.0-M6/junit-platform-engine-1.0.0-M6.pom"/>
+				<caller organisation="org.junit.platform" name="junit-platform-launcher" conf="compile, runtime" rev="1.0.0-M6" rev-constraint-default="1.0.0-M6" rev-constraint-dynamic="1.0.0-M6" callerrev="1.0.0-M6"/>
+				<caller organisation="org.junit.jupiter" name="junit-jupiter-engine" conf="compile, runtime" rev="1.0.0-M6" rev-constraint-default="1.0.0-M6" rev-constraint-dynamic="1.0.0-M6" callerrev="5.0.0-M6"/>
+				<caller organisation="org.junit.vintage" name="junit-vintage-engine" conf="compile, runtime" rev="1.0.0-M6" rev-constraint-default="1.0.0-M6" rev-constraint-dynamic="1.0.0-M6" callerrev="4.12.0-M6"/>
+				<artifacts>
+					<artifact name="junit-platform-engine" type="jar" ext="jar" status="no" details="" size="84648" time="0" location="/Users/kyleannen/.ivy2/cache/org.junit.platform/junit-platform-engine/jars/junit-platform-engine-1.0.0-M6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/junit/platform/junit-platform-engine/1.0.0-M6/junit-platform-engine-1.0.0-M6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit.jupiter" name="junit-jupiter-api">
+			<revision name="5.0.0-M6" status="release" pubdate="20170718142644" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org/junit5/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2869" time="0" location="/Users/kyleannen/.ivy2/cache/org.junit.jupiter/junit-jupiter-api/ivy-5.0.0-M6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.0.0-M6/junit-jupiter-api-5.0.0-M6.pom"/>
+				<caller organisation="org.junit.jupiter" name="junit-jupiter-engine" conf="compile, runtime" rev="5.0.0-M6" rev-constraint-default="5.0.0-M6" rev-constraint-dynamic="5.0.0-M6" callerrev="5.0.0-M6"/>
+				<caller organisation="org.junit.jupiter" name="junit-jupiter-params" conf="compile, runtime" rev="5.0.0-M6" rev-constraint-default="5.0.0-M6" rev-constraint-dynamic="5.0.0-M6" callerrev="5.0.0-M6"/>
+				<artifacts>
+					<artifact name="junit-jupiter-api" type="jar" ext="jar" status="no" details="" size="73907" time="0" location="/Users/kyleannen/.ivy2/cache/org.junit.jupiter/junit-jupiter-api/jars/junit-jupiter-api-5.0.0-M6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/junit/jupiter/junit-jupiter-api/5.0.0-M6/junit-jupiter-api-5.0.0-M6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.junit.platform" name="junit-platform-commons">
+			<revision name="1.0.0-M6" status="release" pubdate="20170718143008" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org/junit5/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="Eclipse Public License v1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2544" time="0" location="/Users/kyleannen/.ivy2/cache/org.junit.platform/junit-platform-commons/ivy-1.0.0-M6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/junit/platform/junit-platform-commons/1.0.0-M6/junit-platform-commons-1.0.0-M6.pom"/>
+				<caller organisation="org.junit.jupiter" name="junit-jupiter-api" conf="compile, runtime" rev="1.0.0-M6" rev-constraint-default="1.0.0-M6" rev-constraint-dynamic="1.0.0-M6" callerrev="5.0.0-M6"/>
+				<caller organisation="org.junit.platform" name="junit-platform-engine" conf="compile, runtime" rev="1.0.0-M6" rev-constraint-default="1.0.0-M6" rev-constraint-dynamic="1.0.0-M6" callerrev="1.0.0-M6"/>
+				<artifacts>
+					<artifact name="junit-platform-commons" type="jar" ext="jar" status="no" details="" size="58226" time="0" location="/Users/kyleannen/.ivy2/cache/org.junit.platform/junit-platform-commons/jars/junit-platform-commons-1.0.0-M6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/junit/platform/junit-platform-commons/1.0.0-M6/junit-platform-commons-1.0.0-M6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.opentest4j" name="opentest4j">
+			<revision name="1.0.0-M3" status="release" pubdate="20170716123514" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/ota4j-team/opentest4j" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="The Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2656" time="0" location="/Users/kyleannen/.ivy2/cache/org.opentest4j/opentest4j/ivy-1.0.0-M3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/opentest4j/opentest4j/1.0.0-M3/opentest4j-1.0.0-M3.pom"/>
+				<caller organisation="org.junit.jupiter" name="junit-jupiter-api" conf="compile, runtime" rev="1.0.0-M3" rev-constraint-default="1.0.0-M3" rev-constraint-dynamic="1.0.0-M3" callerrev="5.0.0-M6"/>
+				<caller organisation="org.junit.platform" name="junit-platform-engine" conf="compile, runtime" rev="1.0.0-M3" rev-constraint-default="1.0.0-M3" rev-constraint-dynamic="1.0.0-M3" callerrev="1.0.0-M6"/>
+				<artifacts>
+					<artifact name="opentest4j" type="jar" ext="jar" status="no" details="" size="6594" time="0" location="/Users/kyleannen/.ivy2/cache/org.opentest4j/opentest4j/jars/opentest4j-1.0.0-M3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/opentest4j/opentest4j/1.0.0-M3/opentest4j-1.0.0-M3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="junit" name="junit">
+			<revision name="4.12" status="release" pubdate="20141204101743" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="Eclipse Public License 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="3317" time="0" location="/Users/kyleannen/.ivy2/cache/junit/junit/ivy-4.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.pom"/>
+				<caller organisation="org.junit.vintage" name="junit-vintage-engine" conf="compile, runtime" rev="4.12" rev-constraint-default="4.12" rev-constraint-dynamic="4.12" callerrev="4.12.0-M6"/>
+				<artifacts>
+					<artifact name="junit" type="jar" ext="jar" status="no" details="" size="314932" time="0" location="/Users/kyleannen/.ivy2/cache/junit/junit/jars/junit-4.12.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/junit/junit/4.12/junit-4.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hamcrest" name="hamcrest-core">
+			<revision name="1.3" status="release" pubdate="20120709160802" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="New BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="2617" time="0" location="/Users/kyleannen/.ivy2/cache/org.hamcrest/hamcrest-core/ivy-1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.pom"/>
+				<caller organisation="junit" name="junit" conf="compile, runtime" rev="1.3" rev-constraint-default="1.3" rev-constraint-dynamic="1.3" callerrev="4.12"/>
+				<artifacts>
+					<artifact name="hamcrest-core" type="jar" ext="jar" status="no" details="" size="45024" time="0" location="/Users/kyleannen/.ivy2/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.12.3" status="release" pubdate="20170725064444" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.3/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2812" time="0" location="/Users/kyleannen/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.12.3.xml" searched="false" origin-is-local="false" origin-location="file:////Users/kyleannen/.sbt/preloaded/org.scala-lang/scala-reflect/2.12.3/ivys/ivy.xml"/>
+				<caller organisation="org.scalactic" name="scalactic_2.12" conf="default, compile, runtime, master" rev="2.12.3" rev-constraint-default="2.12.3" rev-constraint-dynamic="2.12.3" callerrev="3.0.1"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="3567871" time="0" location="/Users/kyleannen/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.3.jar">
+						<origin-location is-local="false" location="file:////Users/kyleannen/.sbt/preloaded/org.scala-lang/scala-reflect/2.12.3/jars/scala-reflect.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalactic" name="scalactic_2.12">
+			<revision name="3.0.1" status="release" pubdate="20161109235016" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="2967" time="0" location="/Users/kyleannen/.ivy2/cache/org.scalactic/scalactic_2.12/ivy-3.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.1/scalactic_2.12-3.0.1.pom"/>
+				<caller organisation="org.clojars.kyleannen" name="jsonserver" conf="compile-internal, compile, provided, optional" rev="3.0.1" rev-constraint-default="3.0.1" rev-constraint-dynamic="3.0.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="scalactic_2.12" type="bundle" ext="jar" status="no" details="" size="705564" time="0" location="/Users/kyleannen/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.1/scalactic_2.12-3.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.3" status="release" pubdate="20170725064730" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.3/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2640" time="0" location="/Users/kyleannen/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.3.xml" searched="false" origin-is-local="false" origin-location="file:////Users/kyleannen/.sbt/preloaded/org.scala-lang/scala-library/2.12.3/ivys/ivy.xml"/>
+				<caller organisation="org.clojars.kyleannen" name="tictactoe" conf="default, compile, runtime, master" rev="2.12.3" rev-constraint-default="2.12.3" rev-constraint-dynamic="2.12.3" callerrev="0.2.1"/>
+				<caller organisation="org.clojars.kyleannen" name="jsonserver" conf="compile-internal, compile, provided, optional" rev="2.12.3" rev-constraint-default="2.12.3" rev-constraint-dynamic="2.12.3" callerrev="0.1"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.12.3" rev-constraint-default="2.12.3" rev-constraint-dynamic="2.12.3" callerrev="2.12.3"/>
+				<caller organisation="org.scalactic" name="scalactic_2.12" conf="default, compile, runtime, master" rev="2.12.3" rev-constraint-default="2.12.3" rev-constraint-dynamic="2.12.3" callerrev="3.0.1"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5246851" time="0" location="/Users/kyleannen/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.3.jar">
+						<origin-location is-local="false" location="file:////Users/kyleannen/.sbt/preloaded/org.scala-lang/scala-library/2.12.3/jars/scala-library.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

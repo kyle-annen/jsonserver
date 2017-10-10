@@ -1,0 +1,9 @@
+[0m[[0m[0minfo[0m] [0m[0mPackaging /Users/kyleannen/Code/jsonserver/target/jsonserver-0.1-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/clojars/kyleannen/jsonserver/IntegratorJSON.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/kyleannen/Code/jsonserver/src/main/scala/org/clojars/kyleannen/jsonserver/IntegratorJSON.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/clojars/kyleannen/jsonserver/JsonServer.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/kyleannen/Code/jsonserver/src/main/scala/org/clojars/kyleannen/jsonserver/JsonServer.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	org/clojars/kyleannen/jsonserver/ControllerTicTacToeJSON.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/kyleannen/Code/jsonserver/src/main/java/org/clojars/kyleannen/jsonserver/ControllerTicTacToeJSON.java[0m
+[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: org.codehaus.plexus:plexus-compiler-api:2.8.2:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.codehaus.plexus/plexus-compiler-api/jars/plexus-compiler-api-2.8.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.codehaus.plexus/plexus-compiler-api/srcs/plexus-compiler-api-2.8.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

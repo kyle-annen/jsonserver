@@ -1,0 +1,8 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mScalaIntegratorJSONSpec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mparseJson[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- returns a map corresponding to the JSON given[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mbuildResponseJson[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- formats a board and messages into a json object[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mgenerateGameState[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- generates a valid game state for the board and messages provided[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- generates invalid submission flag if the submitted move is not available [0m[0m

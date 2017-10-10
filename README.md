@@ -1,4 +1,4 @@
-# JSON TicTacToe Server
+# JSON TicTacToe Server [Green Travis Badge]
 
 A JSON TicTacToe server that provides a JSON API interface for a TicTacToe engine.
 

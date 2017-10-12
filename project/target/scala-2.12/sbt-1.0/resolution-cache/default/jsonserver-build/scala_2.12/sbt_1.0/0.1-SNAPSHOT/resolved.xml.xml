@@ -4,7 +4,7 @@
 		module="jsonserver-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20171010094711"
+		publication="20171012124114"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>
@@ -40,9 +40,10 @@
 			<artifact name="global-plugins" type="src" ext="jar" conf="compile" e:classifier="sources"/>
 			<artifact name="global-plugins" type="doc" ext="jar" conf="compile" e:classifier="javadoc"/>
 		</dependency>
-		<dependency org="com.typesafe.sbt" name="sbt-mocha" rev="1.1.2" conf="compile->default(compile)" e:sbtVersion="1.0" e:scalaVersion="2.12"/>
 		<dependency org="com.eed3si9n" name="sbt-assembly" rev="0.14.5" conf="compile->default(compile)" e:sbtVersion="1.0" e:scalaVersion="2.12"/>
 		<dependency org="com.heroku" name="sbt-heroku" rev="2.0.0" conf="compile->default(compile)" e:sbtVersion="1.0" e:scalaVersion="2.12"/>
 		<dependency org="com.typesafe.sbt" name="sbt-native-packager" rev="1.2.2" conf="compile->default(compile)" e:sbtVersion="1.0" e:scalaVersion="2.12"/>
+		<dependency org="org.scoverage" name="sbt-coveralls" rev="1.2.2" conf="compile->default(compile)" e:sbtVersion="1.0" e:scalaVersion="2.12"/>
+		<dependency org="org.scoverage" name="sbt-scoverage" rev="1.5.1" conf="compile->default(compile)" e:sbtVersion="1.0" e:scalaVersion="2.12"/>
 	</dependencies>
 </ivy-module>

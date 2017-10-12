@@ -1,4 +1,7 @@
-# JSON TicTacToe Server [![Build Status](https://travis-ci.org/kyle-annen/jsonserver.svg?branch=master)](https://travis-ci.org/kyle-annen/jsonserver)
+# JSON TicTacToe Server 
+[![Build Status](https://travis-ci.org/kyle-annen/jsonserver.svg?branch=master)](https://travis-ci.org/kyle-annen/jsonserver)
+[![Coverage Status](https://coveralls.io/repos/github/kyle-annen/jsonserver/badge.svg?branch=coveralls)](https://coveralls.io/github/kyle-annen/jsonserver?branch=coveralls)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/445754ade8ca486897f910c5d145e825)](https://www.codacy.com/app/kyle-annen/jsonserver?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=kyle-annen/jsonserver&amp;utm_campaign=Badge_Grade)
 
 A JSON TicTacToe server that provides a JSON API interface for a TicTacToe engine.
 

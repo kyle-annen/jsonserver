@@ -8,6 +8,9 @@ object JsonServer {
   def start(): Unit = {
     val router = new Router()
     router.addRoute("POST", "/", new ControllerTicTacToeJSON)
+    router.addRoute("GET", "/", new ControllerTicTacToeJSON)
+    router.disableDirectoryRouting()
+    router.disableFileRouting()
     val baseDirectory: String = System.getProperty("user.dir")
     val webDirectory: String = baseDirectory + "/"
     val port = Properties.envOrElse("PORT", "3434")

@@ -2,7 +2,7 @@
 organization := "org.clojars.kyleannen"
 name := "jsonserver"
 
-version := "0.1"
+version := "0.2"
 
 scalaVersion := "2.12.3"
 
@@ -14,12 +14,6 @@ crossPaths := false
 
 //set the options for JUnit to display JUnit test logging on success (otherwise it is suppressed)
 testOptions += Tests.Argument(TestFrameworks.JUnit, "-v")
-
-//enable the js test plugin
-lazy val root = (project in file(".")).enablePlugins(SbtWeb)
-
-//add pattern for js tests
-WebKeys.jsFilter in TestAssets := GlobFilter("tictactoe.spec.js")
 
 //settings to deploy to Clojars
 publishTo := Some("clojars" at "https://clojars.org/repo")
@@ -37,8 +31,8 @@ libraryDependencies ++= Seq(
   "com.novocode" % "junit-interface" % "0.11" % "test",
   "org.clojars.kyleannen" % "javaserver" % "0.5.4",
   "org.clojars.kyleannen" % "tictactoe" % "0.2.1",
-  "org.apache.maven.plugins" % "maven-compiler-plugin" % "3.7.0"
-
+  "org.apache.maven.plugins" % "maven-compiler-plugin" % "3.7.0",
+  "org.scoverage" % "scalac-scoverage-runtime_2.12" % "1.3.0"
 )
 
 publishMavenStyle := true

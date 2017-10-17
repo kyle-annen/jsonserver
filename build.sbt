@@ -29,11 +29,13 @@ libraryDependencies ++= Seq(
   "org.scalactic" %% "scalactic" % "3.0.1",
   "org.scalatest" %% "scalatest" % "3.0.1" % "test",
   "com.novocode" % "junit-interface" % "0.11" % "test",
-  "org.clojars.kyleannen" % "javaserver" % "0.5.4",
+  "org.clojars.kyleannen" % "javaserver" % "0.5.5",
   "org.clojars.kyleannen" % "tictactoe" % "0.2.1",
   "org.apache.maven.plugins" % "maven-compiler-plugin" % "3.7.0",
   "org.scoverage" % "scalac-scoverage-runtime_2.12" % "1.3.0"
 )
+
+
 
 publishMavenStyle := true
 pomExtra :=

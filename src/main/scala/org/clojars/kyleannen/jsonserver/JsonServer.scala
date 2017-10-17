@@ -1,6 +1,6 @@
 package org.clojars.kyleannen.jsonserver
 
-import org.clojars.kyleannen.javaserver.{ConfigureServer, Router}
+import org.clojars.kyleannen.javaserver.{ConfigureServer, ControllerOptions, Router}
 
 import scala.util.Properties
 
@@ -9,6 +9,7 @@ object JsonServer {
     val router = new Router()
     router.addRoute("POST", "/", new ControllerTicTacToeJSON)
     router.addRoute("GET", "/", new ControllerTicTacToeJSON)
+    router.addRoute("OPTIONS", "/", new ControllerOptions)
     router.disableDirectoryRouting()
     router.disableFileRouting()
     val baseDirectory: String = System.getProperty("user.dir")

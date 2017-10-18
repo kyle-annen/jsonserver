@@ -13,6 +13,12 @@ To run tests:
 sbt test
 ```
 
+# Code Coverage
+
+```bash
+sh testcoverage.sh
+```
+
 # Use the server
 
 1. Clone repository.
@@ -21,15 +27,10 @@ sbt test
 sbt run
 ```
 
-# Deploy to Heroku
+# Deploy to Heroku & Clojars
 
-1. Clone repository
-2. Set the heroku app name in `build.sbt`
-3. Run the assembly deploy command to deploy a fat jar to heroku
+```sh deploy.sh```
 
-```bash
-sbt assembly deployHeroku
-```
 
 # Interfacing with JSON API
 
